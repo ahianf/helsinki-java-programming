@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/**-
+/**
  *
  * @author ahian
  */
@@ -45,5 +45,6 @@ public class Counter {
         } else {
             value = value - decreaseBy;
         }
+
     }
 }
