@@ -15,7 +15,6 @@ public class IoobProgram {
         lines.add("up with his quantum theory while studying...");
 
         System.out.println(lines.get(lines.size()));
-        
 
     }
 }

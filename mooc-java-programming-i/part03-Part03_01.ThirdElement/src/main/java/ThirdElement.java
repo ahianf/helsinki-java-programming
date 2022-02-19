@@ -7,14 +7,16 @@ public class ThirdElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<String> frases = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
         while (true) {
-            String palabra = scanner.nextLine();
-            if (palabra.isBlank()){
+            String input = scanner.nextLine();
+            if (input.equals("")) {
                 break;
             }
-            frases.add(palabra);
+
+            list.add(input);
         }
-        System.out.println(frases.get(2));
+
+        System.out.println(list.get(2));
     }
 }

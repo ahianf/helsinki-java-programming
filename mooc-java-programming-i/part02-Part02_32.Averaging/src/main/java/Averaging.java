@@ -2,14 +2,12 @@
 public class Averaging {
 
     // implement the sum method here again
-    public static int sum(int number1, int number2, int number3, int number4) {
-        // write some code here
-        return 0;
+    public static int sum(int num1, int num2, int num3, int num4) {
+        return num1 + num2 + num3 +num4;
     }
 
     public static double average(int number1, int number2, int number3, int number4) {
-        //write some code here
-        return -1;
+        return ((double)(number1 + number2 + number3 + number4)/4);
     }
 
     public static void main(String[] args) {
